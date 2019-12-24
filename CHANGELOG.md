@@ -1,0 +1,601 @@
+## 0.1.0 (December 24, 2019)
+  - added bump-version.sh and modified .gitignore
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - python package
+  - add config items
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - py36 fix
+  - Merge pull request #944 from zma-c-137/vargfacenet
+  - add vargfacenet
+  - cascade custom op
+  - cascade retinaface
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny fix
+  - add SFC output header
+  - Update README.md
+  - Update README.md
+  - Merge pull request #918 from ChenJoya/master
+  - Update symbol_mnet.py
+  - Update symbol_resnet.py
+  - pip v0.1.3
+  - add code reference, from gluoncv
+  - pip package
+  - Update README.md
+  - Update README.md
+  - PRNet readme
+  - mxnet prnet impl
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - repo clean
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - more for py3
+  - Update README.md
+  - support py3 for arcface
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Add files via upload
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - add build_eval_pack script
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - use sample_config
+  - Update README.md
+  - Add files via upload
+  - Update README.md
+  - RetinaFace test
+  - Update README.md
+  - Add files via upload
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - RetinaFace impl
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add gen_video_feature for iccv19 challenge
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Create README.md
+  - add memonger.py
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - retinaface test fix
+  - Update README.md
+  - Update README.md
+  - Add files via upload
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - retinaface test.py
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - retinaface test code
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - python face align tool for recognition
+  - iccv19 challenge generate image feature example
+  - retinaface init
+  - iccv19 challenge related
+  - Update README.md
+  - add flops_counter
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - more setting in resnet
+  - add blocks setting in mobilefacenet
+  - add rec2image util
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - tiny fix
+  - Update README.md
+  - tiny fix
+  - tiny fix
+  - Delete mainsteps.png
+  - Delete memoryspeed.png
+  - Update README.md
+  - Add files via upload
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Add files via upload
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - support weight matrix parall training on single machine
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - move config.py to sample_config; add more test code
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add alignment test example
+  - add densenet dropout config
+  - fix again
+  - fix
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add densenet
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add r50v1 network config
+  - Update README.md
+  - support prelu in mnasnet
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - add mnasnet; add save embedding only option
+  - Update README.md
+  - tiny
+  - move more to config
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - triplet image iter
+  - default lr for triplet
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - Update README.md
+  - support both softmax and triplet loss in train.py
+  - Update README.md
+  - add arcface training readme
+  - move arcface training to ROOT/recognition
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - tiny
+  - code cleaning for stacked dense unet
+  - refine test for stacked dense unet
+  - stacked dense unet readme init
+  - alignment: stacked dense unet implementation init
+  - Update README.md
+  - Add files via upload
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - new megaface test script
+  - fix on IJB
+  - Update readme.txt
+  - Update README.md
+  - Update readme.txt
+  - add evaluation on IJBB and IJBC
+  - remove IJB-B and IJB-C evaluation
+  - add IJB-B and IJB-C evaluation
+  - gdis triplet
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add mobilenet multiplier
+  - tiny fix
+  - Merge pull request #441 from tengerye/master
+  - Compatiable with Python 3.
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add intra/inter loss
+  - dir2rec: simple packing images to rec file
+  - Update README.md
+  - new gender-age model
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - support color and compress aug
+  - tiny on network symbols
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Merge pull request #397 from ppwwyyxx/patch-1
+  - Fix typo
+  - Update README.md
+  - support other input resolution training
+  - new prefix for model slim
+  - add dir2lst
+  - add ce-loss output log
+  - Merge pull request #363 from szad670401/b1
+  - add cpp align
+  - init spherenet weight in symbol def
+  - fix
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tripletloss: use symbol from pretrained model and code refine
+  - add input-v2
+  - Update README.md
+  - add fc7-no-bias option
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - fix GNAP
+  - on triplet
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - triplet refined
+  - per-image norm
+  - tiny
+  - for mobilefacenet++
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - set default threshold=0.5 in SSH detector
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - ssh_detector fix
+  - add SDUNet submodule
+  - support 5-landmark input
+  - fix
+  - add embedding inference
+  - add makefile
+  - on alignment inference
+  - alignment inference
+  - ssh face detector inference
+  - use prefetching
+  - fix comment
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - glint dataset scripts
+  - use nd.softmaxoutput
+  - fix gluon
+  - gluon interface
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - new age and gender val
+  - Update README.md
+  - r
+  - 68points face alignment
+  - det option=0, support age, gender infer
+  - gluon init
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny on mobilefacenet
+  - Update README.md
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add MobileFaceNet
+  - Update README.md
+  - age fix
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - age init
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - Update README.md
+  - fix combined margin
+  - Update README.md
+  - Update README.md
+  - add combined margin loss
+  - updatereadme
+  - update readme
+  - update readme
+  - update readme
+  - update readme
+  - update readme
+  - update readme
+  - update readme
+  - update readme
+  - Update README.md
+  - Update README.md
+  - code clean
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - add logits verbose
+  - tiny
+  - fix
+  - fix
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - add version-act
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - tiny
+  - tiny
+  - tiny
+  - Update README.md
+  - tiny
+  - remove cfp_ff
+  - tiny
+  - tiny
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add cutoff
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - n sgd
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - YTF
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add flexiable multiple margin
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add megaface noises and rules
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - clean
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - fix
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - reset m param
+  - Update README.md
+  - lt13
+  - lt13
+  - tiny
+  - add c2c-mode
+  - alignment3d init
+  - helper classes
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - fix spherenet
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - fix c2c
+  - Update README.md
+  - Update README.md
+  - fix data
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add c2c label
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - fix model loading in verification.py
+  - fix model_slim
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add FGHIJ end setting
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - model slim
+  - Update README.md
+  - Update README.md
+  - add face_model benchmark
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add mtcnn option, to use R+O or O
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add deployment
+  - use mx.model in gen_megaface
+  - fix
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - fix
+  - Update README.md
+  - tiny
+  - dataset helpers
+  - remove face2rec.py
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - fix align_facescrub.py
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - clean data.py
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add license
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - dataset utils
+  - clean
+  - tiny on api
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - align_facescrub
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add datasets dir
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - add benchmark
+  - tiny
+  - tiny
+  - tiny
+  - add margin stat
+  - tiny
+  - tiny
+  - add easy mode
+  - add mobilenet v2
+  - some scripts
+  - add emb size
+  - refine api
+  - dataset merge and clean script
+  - tiny
+  - tiny
+  - tiny
+  - tiny
+  - tiny
+  - add time stat in ver
+  - fix
+  - fix
+  - add m,s params
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add cmloss
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add triplet max ap
+  - tiny
+  - add feature l2 sphere
+  - tiny
+  - use gpu for triplet semi-hard mining
+  - api fix
+  - add coco loss
+  - add spherenet back
+  - megaface align and gen
+  - add face_model api
+  - tiny fix
+  - merge
+  - add triplet time stat
+  - triplet fix
+  - save if lfw>=998
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - use no se by default, add nasnet
+  - Update README.md
+  - Update README.md
+  - symbols clean
+  - add multi dataiter support
+  - tiny
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add triplet
+  - tiny
+  - tiny
+  - tiny
+  - fix marginal loss
+  - add npair loss
+  - do not reset
+  - add G and v4 unit
+  - tiny
+  - tiny
+  - fix get_head
+  - add get_head
+  - centerloss params
+  - add dpn
+  - tiny
+  - add center loss train
+  - add centerloss
+  - fix
+  - fix
+  - add cfp_ff back
+  - remove cfp_ff, do ver on flip only
+  - tiny
+  - add resnet100
+  - tiny on ver
+  - fix
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - read image_size from property file
+  - Update README.md
+  - refine last some layers
+  - clean
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add densenet
+  - Update README.md
+  - fix symbols
+  - add xception
+  - change model save logic
+  - fix
+  - tiny
+  - example train.sh
+  - tiny
+  - change F
+  - fix
+  - fix
+  -  add symbol utils
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - ver
+  - Update README.md
+  - Update README.md
+  - fix
+  - fix
+  - add resnext config
+  - add mobilenet
+  - add G,H
+  - tiny
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - tiny
+  - val lfw
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - add params in fresnet
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - for test
+  - Update README.md
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - Update README.md
+  - add irv2
+  - tiny
+  - tiny
+  - tiny
+  - tiny
+  - tiny
+  - tiny
+  - face resnet
+  - tiny
+  - add symbols dir
+  - code structure
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - refine
+  - Update README.md
+  - Update README.md
+  - tiny
+  - tiny
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - tiny
+  - tiny
+  - tiny
+  - tiny
+  - tiny
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - fix
+  - tiny
+  - tiny
+  - add data_dir
+  - Merge branch 'master' of https://github.com/deepinsight/insightface
+  - use rec only in faceimageiter2
+  - tiny
+  - lfw
+  - codes
+  - Initial commit
+
