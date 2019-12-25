@@ -38,7 +38,8 @@ The training data containing the annotation (and the models trained with these d
   3. **Dataset Alignment & Resizer (112x112)**: Zhang K, Zhang Z, Li Z, Qiao Y. Joint face detection and alignment using multitask cascaded convolutional networks. IEEE Signal Processing Letters. 2016 Aug 26;23(10):1499-503.
   4. **Dataset Generator (.lst and .rec)**: Deng J, Guo J, Xue N, Zafeiriou S. Arcface: Additive angular margin loss for deep face recognition. InProceedings of the IEEE Conference on Computer Vision and Pattern Recognition 2019 (pp. 4690-4699).
   4. **File .bin generator**: Deng J, Guo J, Zhou Y, Yu J, Kotsia I, Zafeiriou S. RetinaFace: Single-stage Dense Face Localisation in the Wild. arXiv preprint arXiv:1905.00641. 2019 May 2.
- 
+  5. **Used Dataset**: Guo Y, Zhang L, Hu Y, He X, Gao J. Ms-celeb-1m: A dataset and benchmark for large-scale face recognition. InEuropean Conference on Computer Vision 2016 Oct 8 (pp. 87-102). Springer, Cham.
+  
 ## ArcFace Video Demo
 
 [![ArcFace Demo](https://github.com/deepinsight/insightface/blob/master/resources/facerecognitionfromvideo.PNG)](https://www.youtube.com/watch?v=y-D1tReryGA&t=81s)
