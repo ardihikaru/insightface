@@ -8,6 +8,36 @@ By Jia Guo and [Jiankang Deng](https://jiankangdeng.github.io/)
 The code of InsightFace is released under the MIT License. There is no limitation for both acadmic and commercial usage.
 
 The training data containing the annotation (and the models trained with these data) are available for non-commercial research purposes only.
+
+## Modification for MLSP Final Project
+- [Course Links](https://timetable.nctu.edu.tw/?r=main/crsoutline&Acy=108&Sem=1&CrsNo=5946&lang=en-us)
+- List of Modifications:
+  - [x] Work of Sample dataset in this [git project](https://github.com/ardihikaru/preparing_data).
+    - Please go to those git project for the detail.
+  - [x] Do `make` in folder `$ROOT/RetinaFace`
+    - // TO DO HERE
+  - [ ] Location of sample dataset: `datasets/mlsp_dataset`
+    - Please download and extract dataset from this [link](http://bit.ly/mlsp-dataset).
+  - [ ] Generating .lst file
+    - // TO DO HERE
+    ```python
+    python im2rec.py --list=True --recursive=True --ext=.jpg mlsp_dataset_int/mlsp_dataset_int.lst mlsp_dataset_int/
+    ```
+  - [ ] Generating .rec and idx files
+    - // TO DO HERE
+    ```python
+    python im2rec.py --recursive=True --ext=.jpg mlsp_dataset_int/mlsp_dataset_int.lst mlsp_dataset_int/
+    ```
+  - [ ] Generating .bin file
+    - // TO DO HERE
+  - [ ] Training custom dataset
+    - // TO DO HERE
+- References:
+  1. **Main Paper**: Yang L, Zhan X, Chen D, Yan J, Loy CC, Lin D. Learning to cluster faces on an affinity graph. InProceedings of the IEEE Conference on Computer Vision and Pattern Recognition 2019 (pp. 2298-2306).
+  2. **re-Training CNN Model**: Zhang X, Yang L, Yan J, Lin D. Accelerated training for massive classification via dynamic class selection. InThirty-Second AAAI Conference on Artificial Intelligence 2018 Apr 27.
+  3. **Dataset Alignment & Resizer (112x112)**: Zhang K, Zhang Z, Li Z, Qiao Y. Joint face detection and alignment using multitask cascaded convolutional networks. IEEE Signal Processing Letters. 2016 Aug 26;23(10):1499-503.
+  4. **Dataset Generator (.lst and .rec)**: Deng J, Guo J, Xue N, Zafeiriou S. Arcface: Additive angular margin loss for deep face recognition. InProceedings of the IEEE Conference on Computer Vision and Pattern Recognition 2019 (pp. 4690-4699).
+  4. **File .bin generator**: Deng J, Guo J, Zhou Y, Yu J, Kotsia I, Zafeiriou S. RetinaFace: Single-stage Dense Face Localisation in the Wild. arXiv preprint arXiv:1905.00641. 2019 May 2.
  
 ## ArcFace Video Demo
 
