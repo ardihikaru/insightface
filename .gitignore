@@ -27,6 +27,10 @@ wheels/
 
 # Face Dataset
 datasets/mlsp_dataset_int/
+datasets/mlsp_dataset_int.idx
+datasets/mlsp_dataset_int.lst
+datasets/mlsp_dataset_int.rec
+datasets/train.bin
 
 # PyCharm Editor
 .idea/

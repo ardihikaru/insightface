@@ -18,17 +18,34 @@ The training data containing the annotation (and the models trained with these d
     - // TO DO HERE
   - [ ] Location of sample dataset: `datasets/mlsp_dataset`
     - Please download and extract dataset from this [link](http://bit.ly/mlsp-dataset).
-  - [ ] Generating .lst file
+  - [x] Generating .lst file
     - // TO DO HERE
     ```python
-    python im2rec.py --list=True --recursive=True --ext=.jpg mlsp_dataset_int/mlsp_dataset_int.lst mlsp_dataset_int/
+    python im2rec.py --list=True --recursive=True --ext=.jpg ./../../datasets/mlsp_dataset_int/ ./../../datasets/mlsp_dataset_int/
     ```
-  - [ ] Generating .rec and idx files
+  - [x] Generating .rec and idx files
     - // TO DO HERE
     ```python
-    python im2rec.py --recursive=True --ext=.jpg mlsp_dataset_int/mlsp_dataset_int.lst mlsp_dataset_int/
+    python im2rec.py --recursive=True --ext=.jpg ./../../datasets/mlsp_dataset_int.lst ./../../datasets/mlsp_dataset_int/
     ```
+  - [ ] Extracting back .rec into image folder
+    ```python
+    
+    ```
+  - [x] Generating pairs.txt
+    - Similar issue please check [here](https://github.com/deepinsight/insightface/issues/210).
+    - Format `pairs.txt`:
+    ```
+    10 300 ---> < #_labels, #_images > maybe
+    Abel_Pacheco 1 4
+    Akhmed_Zakayev 1 3
+    Akhmed_Zakayev 2 3
+    ```
+    - Execute python code from [here](https://github.com/ardihikaru/preparing_data/blob/feature/implementation/02_insightface_pairs_gen.py).
   - [ ] Generating .bin file
+    ```python
+    python lfw2pack.py --data-dir ./../../datasets/mlsp_dataset_int/faces112x112/ --image-size=112 --output ./../../datasets/train.bin
+    ```
     - // TO DO HERE
   - [ ] Training custom dataset
     - // TO DO HERE
